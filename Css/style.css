@@ -1,0 +1,177 @@
+body{
+    background:rgb(45, 6, 95);
+	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
+	width: 100%;
+    min-width: 1080px
+    
+   
+    
+	
+}
+
+
+
+
+header {
+	background: #020d2c;
+	padding: 10px 10px 10px;
+    
+}
+
+
+header {
+	background: #020d2c;
+	padding: 10px 10px 10px;
+    
+}
+
+.caixa ul{
+    width: 100%;
+    padding: auto;
+    color:aliceblue;
+}
+
+nav{
+    position: absolute;
+    top: 90px;
+    right: 180px;
+ }
+
+ nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+    
+}
+nav a{
+
+    text-transform: uppercase;
+    color: #c7c6d6;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+
+.logo {
+    width: 20%;
+    margin-left: 200px;
+      
+}
+
+.imagem-topo{
+    width: 15%;
+    height: 30mm;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: 30mm;
+  
+    
+}
+
+.titulo{
+    color:aliceblue;
+    text-align: center;
+}
+
+.tituloCompra{
+    color: aliceblue;
+    margin-left: 20px;
+}
+
+.menu{
+    color: aliceblue;
+    margin-left: 20mm;
+}
+.tituloCarrinhoDeCompra{
+    color: aqua;
+}
+
+form {
+    
+	width: 940px;
+	margin: 0 auto;
+	
+}
+
+form label{
+    color:rgb(249, 249, 252)
+}
+
+form p{
+    color:rgb(249, 249, 252)
+    
+}
+
+form label, form legend {
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.checkbox {
+	margin: 40px 0;
+}
+
+.enviar {
+	width: 30%;
+    padding: 10px 0;
+    background: rgb(255, 188, 64);
+	color:papayawhip;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s;
+	cursor: pointer;
+
+}
+
+.enviar:hover {
+	background: darkorange;
+	transform: scale(1.1);
+
+}
+
+.menuCompra{
+    margin-left: -170mm;
+    font-size: 20px;
+}
+
+.menuCompra input{
+    margin-inline: 20px;
+    width: 100px;
+}
+
+
+
+footer{
+    background: rgb(40, 149, 199);
+    text-align: center;
+    color:rgb(190, 190, 81)
+}
+
+.copyright {
+    color: rgb(180, 184, 180);
+    margin-top: 20px;
+}
+
+footer{
+    background: rgb(38, 111, 145);
+    text-align: center;
+    color:rgb(190, 190, 81)
+}
+
+.copyright {
+    color: rgb(180, 184, 180);
+    margin-top: 20px;
+}

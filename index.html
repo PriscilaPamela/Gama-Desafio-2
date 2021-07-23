@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Seus Produtos</title>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Ubuntu:wght@300&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="./Css/style.css">
+
+</head>
+
+<body>
+
+	<style>
+
+		
+    
+		@import url(tiny.css) (min-width:300px);
+		@import url(small.css) (min-width:600px);
+		@import url(big.css) (min-width:900px);
+	   </style>
+	   @media screen and (max-width: 300px) {
+		/* estilos */
+	   }
+	   @media screen and (max-width: 600px) {
+	   /* Estilos */
+	   }
+
+	
+<header>
+	<div class="caixa">
+		<h1></h1><img class="logo" src="./img/logo.jpg"></h1>
+		<nav>
+			<ul>
+				<li><a href="">Cadastre-se</a></li>
+				<li><a href="">Escolha seus produtos</a></li>
+				<li><a href="">Contato</a></li>
+
+			</ul>
+		</nav><br>
+	</div>
+</header>
+</div>
+</header>
+<br><br>
+<img class="imagem-topo" src="./img/images.jpg"><br>
+
+<section class= "menu">
+	<ul><br>
+		 <h3><p>Para realizar o sua compra:</p></h3>
+		 <li>
+			 <p>1 - Faça seu cadastro</p>
+			 <p>2 - Escolha seus Produtos</p>
+			 <p>3 - Vá até seu carrinho e Finalize a compra</p>
+			 <p> - Aproveite! A melhor experiência da sua vida</p>
+		 </li>
+	</ul>
+</section>
+
+<form>
+	<br><br>
+	
+	<p><strong>Cadastre-se</strong></p><br><br>
+	<label for="nomesobrenome">Nome e sobrenome</label>
+	<input type="text" id="nomesobrenome" class="input-padrao" required>
+
+	<label for="email">Email</label>
+	<input type="text" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+	<label for="telefone">Telefone</label>
+	<input type="text" id="telefone" class="input-padrao" placeholder="(xx)xxxxx-xxxx">
+
+	<label for="telefone">CPF</label>
+	<input type="text" id="CPF" class="input-padrao" placeholder="xxx.xxx.xxx-xx">
+
+	<label for="mensagem">Se precisar nos envie uma Mensagem:</label>
+	<textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
+	<input  type="submit" value="Enviar" class="enviar">
+	<button id="bt-enviar" onclick="salvarForm()"></button>
+
+</form><br>
+
+
+	<section Class = "menuCompra">
+
+		<h3 class="titulo">ESCOLHA SEUS PRODUTOS:</h3><br><br>
+
+		<div class=tituloCompra align="center">
+			Foguete Gold <strong>R$ 250,000</strong><br>
+			Qtd: <input type="number" value="1" min="1" max="10" id="qtd1">
+			<button type="button" id="adicionar1" id="produto1"
+				onclick="AddCarrinho('Foguete Gold', document.getElementById('qtd1').value, '250.000', 1)"> Adicionar
+			</button><br>
+		</div>
+
+		<div class=tituloCompra align="center">
+			<br>Foguete Master <strong>R$ 450,000</strong><br>
+			Qtd: <input type="number" value="1" min="1" max="10" id="qtd2">
+			<button type="button" id="adicionar1" id="produto1"
+				onclick="AddCarrinho('Foguete Master', document.getElementById('qtd2').value, '450.000', 2)"> Adicionar
+			</button><br>
+		</div>
+
+		<div class=tituloCompra align="center">
+			<br>Foguete Premium <strong>R$ 600,000</strong><br>
+			Qtd: <input type="number" value="1" min="1" max="10" id="qtd3">
+			<button type="button" id="adicionar1" id="produto1"
+				onclick="AddCarrinho('Feijão', document.getElementById('qtd3').value, '600.000', 3)"> Adicionar
+			</button><br>
+
+			
+		</div><br>
+
+		<input  type="submit" value="Enviar" class="enviar">
+			<button id="bt-enviar" onclick="salvarForm()"></button>
+		<p  align="center">
+			<a class = "tituloCarrinhoDeCompra" href="carrinho.html"> Ver Carrinho de compras </a>
+		</p>
+
+	</section>
+
+	
+
+
+				<footer>
+					<p class="copyright"> Copyright Priscia Pâmela - 2021</p>
+					<p>Contato:Desenvolvedora</p>
+						<p>Telefone: (11) 98357-2585</p>
+						<p>Lindedlin: <a href="https://www.linkedin.com/in/priscila-p%C3%A2mela/"> Priscila Pâmela </a>
+							<p>Email: pripam.pp@gmail.com</p>
+					
+				</footer>
+
+</body>
+
+</html>
+
